@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title>Работа с LLM-моделями — Практический курс</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top-bar">
+    <span class="top-bar-title">Работа с LLM-моделями</span>
+    <div class="top-bar-right">
+      <button class="theme-toggle" aria-label="Переключить тему" title="Переключить тему">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <a href="https://t.me/Serholst_bot" class="top-bar-cta">Записаться</a>
+    </div>
+  </header>
+  <div class="container">
+
+    <!-- Левая колонка: Автор -->
+    <aside class="sidebar">
+      <img src="img/photo.jpg" alt="Сергей Холстов" class="avatar">
+      <h1>Сергей Холстов</h1>
+      <p class="role">Автор курса</p>
+      <p class="bio">Экс-Т банк, ИТ-архитектор. Строю AI-системы для реальных задач.</p>
+      <div class="social-links">
+        <!-- Telegram -->
+        <a href="https://t.me/Holstenero" aria-label="Telegram">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.03-1.99 1.27-5.62 3.72-.53.36-1.01.54-1.44.53-.47-.01-1.38-.27-2.06-.49-.83-.27-1.49-.42-1.43-.88.03-.24.37-.49 1.02-.74 3.99-1.74 6.65-2.89 7.99-3.44 3.8-1.58 4.59-1.86 5.1-1.87.11 0 .37.03.54.17.14.12.18.28.2.47-.01.06.01.24 0 .38z"/></svg>
+        </a>
+        <!-- LinkedIn -->
+        <a href="https://br.linkedin.com/in/holstov" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+      </div>
+    </aside>
+
+    <!-- Правая колонка: Курс -->
+    <main class="content">
+      <h2 class="course-title">Практикум: от нуля до персональной AI-команды</h2>
+
+      <!-- О курсе -->
+      <section>
+        <p>За 3 недели соберёшь команду агентов, которая работает без тебя для тебя. Только 40% теории, остальное — практика! На каждом занятии твоя система будет прогрессировать.</p>
+        <p>Пройдёшь путь от первого промта до системы агентов, которая работает без тебя. Подходит всем, кто хочет системно разобраться в LLM. Никакой воды и пустых обещаний — только применимые знания.</p>
+        <p>Пилотный поток — минимальная цена в обмен на честный фидбэк.</p>
+      </section>
+
+      <!-- Программа -->
+      <section>
+        <h2>Программа</h2>
+        <div class="program">
+
+          <details class="program-card">
+            <summary>
+              <span class="week">Занятие 1</span>
+              <span class="program-card-title">Приложение без кода за один промт</span>
+              <span class="chevron"></span>
+            </summary>
+            <div class="program-card-body">
+              <ul>
+                <li>AI как партнёр: ты продумываешь — он делает</li>
+                <li>Фреймворк 4Д — подход для постановки задач</li>
+                <li>Антипаттерны: почему один промт работает, а другой — мусор</li>
+                <li>GitHub как способ хранения и контроля</li>
+              </ul>
+              <p class="program-card-result">С помощью Claude Code создашь лендинг и сохранишь в GitHub — получишь проект в портфолио.</p>
+            </div>
+          </details>
+
+          <details class="program-card">
+            <summary>
+              <span class="week">Занятие 2</span>
+              <span class="program-card-title">Инфраструктура (VPS + OpenClaw + Telegram)</span>
+              <span class="chevron"></span>
+            </summary>
+            <div class="program-card-body">
+              <ul>
+                <li>Выберешь инструмент для работы с ИИ</li>
+                <li>Настроишь LLM под себя</li>
+                <li>Научишься эффективно продолжать диалоги</li>
+              </ul>
+              <p class="program-card-result">Запустишь AI-ассистента на сервере и настроишь новостную ленту.</p>
+            </div>
+          </details>
+
+          <details class="program-card">
+            <summary>
+              <span class="week">Занятие 3</span>
+              <span class="program-card-title">AI-экспертиза: оркестрация, скилы и субагенты</span>
+              <span class="chevron"></span>
+            </summary>
+            <div class="program-card-body">
+              <ul>
+                <li>Скил — создашь переиспользуемый навык</li>
+                <li>Оркестрация — связываешь агентов в рабочую цепочку</li>
+                <li>Спроектируешь систему для нескольких агентов</li>
+              </ul>
+              <p class="program-card-result">Создашь скил из своего опыта и наймёшь своих первых сотрудников в OpenClaw.</p>
+            </div>
+          </details>
+
+          <details class="program-card">
+            <summary>
+              <span class="week">Занятие 4</span>
+              <span class="program-card-title">Автоматизация: работает без тебя</span>
+              <span class="chevron"></span>
+            </summary>
+            <div class="program-card-body">
+              <ul>
+                <li>Триггеры — узнаешь, как запускать автономных агентов</li>
+                <li>Пайплайн — выстроишь регламент работ</li>
+                <li>IT-архитектура — поймёшь основные компоненты</li>
+                <li>OpenClaw — узнаешь, что под капотом</li>
+              </ul>
+              <p class="program-card-result">Уберёшь себя из процесса и настроишь его работать по твоим условиям.</p>
+            </div>
+          </details>
+
+          <details class="program-card">
+            <summary>
+              <span class="week">Занятие 5</span>
+              <span class="program-card-title">Команда агентов: мониторинг, безопасность и обновление</span>
+              <span class="chevron"></span>
+            </summary>
+            <div class="program-card-body">
+              <ul>
+                <li>Мониторинг — видишь статус системы и ловишь проблемы</li>
+                <li>Безопасность — как защититься от угроз и хранить данные</li>
+                <li>Логи — база для совершенствования системы</li>
+              </ul>
+              <p class="program-card-result">Ты видишь, что происходит, контролируешь результат и не боишься за свой продукт.</p>
+            </div>
+          </details>
+
+          <details class="program-card">
+            <summary>
+              <span class="week">Занятие 6</span>
+              <span class="program-card-title">Лайфхаки и оптимизация</span>
+              <span class="chevron"></span>
+            </summary>
+            <div class="program-card-body">
+              <ul>
+                <li>Самовершенствующаяся система — настроишь эффективный процесс</li>
+                <li>Экономия токенов — как тратить меньше без потери качества</li>
+                <li>Хуки, переключение моделей и другие продвинутые приёмы</li>
+              </ul>
+              <p class="program-card-result">Лучшие практики + разберём то, что не влезло в основную программу.</p>
+            </div>
+          </details>
+
+          <details class="program-card program-card--showcase">
+            <summary>
+              <span class="badge">Выпускной</span>
+              <span class="program-card-title">Демонстрация своего результата</span>
+              <span class="chevron"></span>
+            </summary>
+            <div class="program-card-body">
+              <p>Возможность выступить со своим продуктом, показать его группе и получить обратную связь!</p>
+              <p>Участие опционально.</p>
+            </div>
+          </details>
+
+        </div>
+      </section>
+
+      <!-- Детали -->
+      <section>
+        <h2>Детали</h2>
+        <div class="details-grid">
+          <div class="detail-item">
+            <div class="label">Старт</div>
+            <div class="value">12 апреля 2026</div>
+          </div>
+          <div class="detail-item">
+            <div class="label">Длительность</div>
+            <div class="value">3 недели</div>
+          </div>
+          <div class="detail-item">
+            <div class="label">Формат</div>
+            <div class="value">Живые занятия + домашняя практика + консультации</div>
+          </div>
+          <div class="detail-item">
+            <div class="label">Стоимость</div>
+            <div class="value">100$ первым 10 участникам, далее 300$. Всего 20 мест.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section>
+        <h2>Частые вопросы</h2>
+        <div class="faq">
+          <details class="faq-item">
+            <summary>Нужен ли опыт программирования?<span class="chevron"></span></summary>
+            <div class="faq-body">
+              <p>Нет. Возможности AI сделают всю техническую часть за вас — достаточно базового понимания.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Что я получу в итоге?<span class="chevron"></span></summary>
+            <div class="faq-body">
+              <p>Лендинг с автоматической новостной лентой, команда AI-агентов в Telegram — или собственный проект на базе полученных навыков.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Сколько времени нужно уделять?<span class="chevron"></span></summary>
+            <div class="faq-body">
+              <p>Занятие ~45–75 минут + домашнее задание ~1–2 часа. Между занятиями — время на практику и возможность взять персональную консультацию (включена в стоимость курса).</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Что нужно на старте?<span class="chevron"></span></summary>
+            <div class="faq-body">
+              <p>Нужен доступ к любому AI-инструменту: Claude Code, ChatGPT или аналог. Аккаунт GitHub. VPS для занятий предоставим.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>У меня есть идея, могу я воплотить её?<span class="chevron"></span></summary>
+            <div class="faq-body">
+              <p>Да! Если у вас есть идея стартапа или автоматизации — практикум даст навыки и знания, чтобы создать работающий продукт.</p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+  <script>
+    (function() {
+      var toggle = document.querySelector('.theme-toggle');
+      var html = document.documentElement;
+      var stored = localStorage.getItem('theme');
+      if (stored) {
+        html.setAttribute('data-theme', stored);
+      }
+      toggle.addEventListener('click', function() {
+        var current = html.getAttribute('data-theme');
+        if (!current) {
+          current = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        var next = current === 'dark' ? 'light' : 'dark';
+        html.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+      });
+    })();
+  </script>
+</body>
+</html>
